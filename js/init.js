@@ -13,7 +13,7 @@ $(document).ready(function() {
     const month = months[targetDate.getMonth()];
     const year = targetDate.getFullYear();
     
-    const dateString = `${day} ${month} ${year} 18:30:00`;
+    const dateString = `${day} ${month} ${year} 18:00:00`;
                            
     $(".countdown").countdown({
                 date: dateString,
@@ -26,3 +26,4 @@ $(document).ready(function() {
 
 
 }); 
+
